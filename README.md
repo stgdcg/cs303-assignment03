@@ -3,21 +3,6 @@
 ## Building
 Run `make all` to build. `./main` to run the program. Use `make clean` to clean up `*.0` files.
 
-## Interaction
-A menu is given to the user as shown below:
-
-```
-(p) push to the queue
-(P) pop from the queue
-(t) show the top
-(e) is the queue empty
-(s) show the size of the queue
-(c) convert an infix to a postfix expression
-(Q) quit
-Enter your choice: 
-
-```
-
 Choose an option. Fill in any prompts as requested.
 
 ## Data Structure
@@ -38,6 +23,21 @@ Enter your choice: c
 
         Enter an infix expression: 1+2*(3-4)
         The postfix operation is: 1234-*+
+```
+
+## Interaction
+A menu is given to the user as shown below:
+
+```
+(p) push to the queue
+(P) pop from the queue
+(t) show the top
+(e) is the queue empty
+(s) show the size of the queue
+(c) convert an infix to a postfix expression
+(Q) quit
+Enter your choice: 
+
 ```
 
 ## Demo
